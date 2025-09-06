@@ -12,7 +12,7 @@
 }
 
 html {
-  font-size: 62.5%; /* 1rem = 10px */
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
@@ -38,4 +38,9 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.home__box {
+  display: flex;
+  gap: 1.6rem;
 }

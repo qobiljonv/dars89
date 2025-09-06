@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function PremTime() {
+function CookTime() {
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggle = (e) => {
@@ -27,6 +27,12 @@ function PremTime() {
             <li className="prem__item">
               <button className="prem__text">10 minutes</button>
             </li>
+            <li className="prem__item">
+              <button className="prem__text">15 minutes</button>
+            </li>
+            <li className="prem__item">
+              <button className="prem__text">20 minutes</button>
+            </li>
           </ul>
           <button className="prem__btn">Clear</button>
         </div>
@@ -35,4 +41,4 @@ function PremTime() {
   );
 }
 
-export default PremTime;
+export default CookTime;

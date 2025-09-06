@@ -1,6 +1,5 @@
 .prem-time {
   cursor: pointer;
-  margin: 4rem;
   margin-bottom: 8px;
   font-family: var(--font-secondary);
   font-size: var(--font-size-preset-7);
@@ -15,27 +14,50 @@
   background-color: var(--color-neutral-0);
 }
 
+.prem-time:hover {
+  border-color: var(--color-neutral-900);
+}
+
+.prem-time:focus {
+  border-color: var(--color-neutral-900);
+}
+
 .prem__box {
   position: absolute;
   width: 100%;
   max-width: 24rem;
-  margin-left: 4rem;
+
   padding: 8px;
   background-color: var(--color-neutral-0);
   border-radius: 8px;
   border: 1px solid var(--color-neutral-300);
 }
 
-.prem__item {
-  padding: 8px;
+.prem__text {
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-align: start;
+  width: 100%;
+  max-width: 224px;
+  background-color: transparent;
+  font-family: var(--font-secondary);
+  font-size: var(--font-size-preset-8);
+  color: var(--color-neutral-900);
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid transparent;
 }
 
+.prem__text:focus {
+  border: 1px solid var(--color-neutral-900);
+}
 .prem__btn {
   margin-left: 8px;
   background: none;
   border: none;
   font-family: var(--font-secondary);
   font-size: var(--font-size-preset-9);
+  font-weight: 500;
   color: var(--color-neutral-900);
   cursor: pointer;
 }
